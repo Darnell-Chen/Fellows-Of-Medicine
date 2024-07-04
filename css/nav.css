@@ -1,0 +1,25 @@
+.navbar {
+    padding: 1vh 5vh 1vh 5vh !important;
+    background-color: transparent;
+}
+
+.nav-logo {
+    max-height: 3vh;
+    overflow: hidden;
+}
+
+.navbar-logo-name {
+    font-weight: bold;
+    color: var(--baseColor);
+}
+
+
+.navbar a {
+    font-size: 2vh;
+}
+
+.nav-item:hover{
+    transition: 0.15s ease-in-out;
+    color: var(--baseColor) !important;
+    border-bottom: 5px solid var(--baseColor);
+}
