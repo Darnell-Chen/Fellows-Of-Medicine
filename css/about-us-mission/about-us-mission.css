@@ -1,0 +1,46 @@
+#about-us {
+    background-color: var(--baseColor);
+    color: white;
+    font-size: 3vh;
+    padding: 5px;
+    margin: 3vh 0px 0px 0px;
+}
+
+#about-us-text {
+    padding: 2vh 1vh 2vh 1vh;
+    margin-top: 0px;
+    font-size: 2vh;
+}
+
+#mission {
+    background-color: var(--baseColor);
+    color: white;
+    font-size: 3vh;
+    padding: 5px;
+    margin: 0px;
+}
+
+
+#mission-text {
+    padding: 2vh 1vh 2vh 1vh;
+    margin: 0px;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 768px) {
+    #about-us {
+        text-align: center;
+    }
+
+    #about-us-text {
+        text-align: center;
+    }
+
+    #mission {
+        text-align: center;
+    }
+
+    #mission-text {
+        text-align: center;
+    }
+}

@@ -1,25 +1,36 @@
 .navbar {
-    padding: 1vh 5vh 1vh 5vh !important;
-    background-color: transparent;
+    padding: 1vh 5vh 0vh 5vh !important;
+    background-color: var(--baseColor);
 }
 
 .nav-logo {
     max-height: 3vh;
     overflow: hidden;
+    border: 1px solid white;
+    border-radius: 100%;
 }
 
 .navbar-logo-name {
     font-weight: bold;
-    color: var(--baseColor);
+    color: white;
 }
 
 
 .navbar a {
     font-size: 2vh;
+    color: white;
+    padding-bottom: 1vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
 }
 
 .nav-item:hover{
     transition: 0.15s ease-in-out;
-    color: var(--baseColor) !important;
-    border-bottom: 5px solid var(--baseColor);
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.5));
 }
+
+.navbar a:hover {
+    color: white;
+}
+
+

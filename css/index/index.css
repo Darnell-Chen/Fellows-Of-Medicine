@@ -5,3 +5,12 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.body-wrapper {
+    margin-top: 5vh;
+}
+
+.banner-wrapper {
+    background: linear-gradient(0.25turn, white, white, #0aaad7, #0aaad7);
+    margin-bottom: 2vh;
+}

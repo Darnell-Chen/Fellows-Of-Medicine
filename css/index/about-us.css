@@ -1,0 +1,29 @@
+#about-us {
+    border-bottom: 5px solid var(--baseColor);
+    color: var(--baseColor);
+    font-size: 3vh;
+    padding: 5px;
+    margin: 0px;
+}
+
+#about-us-text {
+    padding: 2vh 1vh 2vh 1vh;
+    margin: 0px;
+    font-size: 2vh;
+}
+
+.about-us-section {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #about-us {
+        text-align: center;
+    }
+
+    #about-us-text {
+        text-align: center;
+    }
+}

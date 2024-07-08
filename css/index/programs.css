@@ -1,0 +1,13 @@
+.programs-section {
+    background: linear-gradient(0.25turn, var(--baseColor), white);
+    margin-bottom: 2vh;
+}
+
+.card {
+    border-radius: 1vh !important;
+    overflow: hidden
+}
+
+.card-title {
+    color: var(--baseColor) !important;
+}
