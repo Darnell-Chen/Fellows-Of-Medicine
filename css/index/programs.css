@@ -20,8 +20,6 @@
 
 
 
-
-
 #program-title {
     border-bottom: 5px solid white;
     color: white;
@@ -102,6 +100,33 @@
     background-size: cover;
 }
 
+.parallax {
+    position: relative;
+}
+  
+.parallax-section {
+    background: #fff;
+    padding: 20px;
+    margin: 200px 0;
+
+    position: relative;
+}
+
+.parallax::before {
+    content: "";
+    background-image: url("img_parallax.jpg");
+
+    position: fixed;
+
+    height: 100vh; 
+    width: 100vw;
+    z-index: -1;
+    top: 0;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
