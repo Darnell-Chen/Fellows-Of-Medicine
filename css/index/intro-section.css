@@ -2,6 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("../../images/intro-section-img2.jpg");
+    min-height: 70vh!important;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #banner {
@@ -9,7 +16,12 @@
     width: 100%;
 }
 
+#welcome-span {
+    color: var(--baseColor);
+}
+
 .welcome-block {
+    color: rgb(223, 236, 240);
     display: block;
     margin-top: 5vh;
     padding-top: 3vh;
@@ -17,8 +29,8 @@
 }
 
 #welcome {
-    color: var(--baseColor);
-    font-size: 4vh;
+    color: white;
+    font-size: 8vh;
     font-weight: bold;
 }
 
@@ -26,6 +38,10 @@
     
     .intro-section {
         text-align: center;
+    }
+
+    #welcome {
+        font-size: 6vh;
     }
 }
 
@@ -35,13 +51,13 @@
 
 
 #explore-programs-button {
-    border: 5px solid var(--baseColor);
+    border: 5px solid white;
     background: transparent;
     font-weight: bold;
-    color: var(--baseColor);
+    color: white;
     margin-bottom: 2vh;
 }
 
 #explore-programs-button:hover {
-    box-shadow: 0px 5px 10px lightblue;
+    box-shadow: 0px 0px 20px lightblue;
 }

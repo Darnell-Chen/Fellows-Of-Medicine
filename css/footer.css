@@ -1,7 +1,14 @@
 .contact-us {
     text-align: center;
+    color: white;
 }
 
 .contact-us h3{
-    color: var(--baseColor);
+    color: white;
+}
+
+.footer-section {
+    background-color: var(--baseColor);
+    padding-bottom: 2vh;
+    padding-top: 5vh;
 }

@@ -15,6 +15,27 @@
 .about-us-section {
     margin-top: 2vh;
     margin-bottom: 3vh;
+    overflow: hidden;
+}
+
+.about-us-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15vh!important;
+}
+
+.about-us-img {
+    background-image: url("../../images//about-us-img.jpg");
+
+    width: 100%;
+    min-height: 65vh;
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -25,5 +46,18 @@
 
     #about-us-text {
         text-align: center;
+    }
+
+    .about-us-img {
+        background-image: none;
+        height: 0vh;
+        background-size: contain;
+        min-height: 0vh!important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-us-text-wrapper {
+        padding: 4vh!important;
     }
 }

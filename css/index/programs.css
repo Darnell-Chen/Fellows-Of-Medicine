@@ -1,13 +1,116 @@
-.programs-section {
-    background: linear-gradient(0.25turn, var(--baseColor), white);
-    margin-bottom: 2vh;
+.programs-section1 {
+    background-color: var(--baseColor);
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
-.card {
-    border-radius: 1vh !important;
-    overflow: hidden
+.programs-section2 {
+    background-color: white;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
-.card-title {
-    color: var(--baseColor) !important;
+
+
+
+
+
+
+#program-title {
+    border-bottom: 5px solid white;
+    color: white;
+    font-size: 3vh;
+    padding: 5px;
+    margin: 0px;
 }
+
+#program-text {
+    padding: 2vh 1vh 2vh 1vh;
+    margin: 0px;
+    font-size: 2vh;
+    color: white;
+}
+
+.program-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15vh!important;
+}
+
+.program-img {
+    background-image: url("../../images/media-intern.jpg");
+
+    width: 100%;
+    min-height: 65vh;
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/**************Program 2************/
+
+
+
+#program2-title {
+    border-bottom: 5px solid var(--baseColor);
+    color: var(--baseColor);
+    font-size: 3vh;
+    padding: 5px;
+    margin: 0px;
+}
+
+#program2-text {
+    padding: 2vh 1vh 2vh 1vh;
+    margin: 0px;
+    font-size: 2vh;
+}
+
+.program2-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15vh!important;
+}
+
+.program2-img {
+    background-image: url("../../images/research-intern2.jpg");
+
+    width: 100%;
+    min-height: 65vh;
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .program2-text-wrapper {
+        padding: 5vh!important;
+    }
+    .program-text-wrapper {
+        padding: 5vh!important;
+    }
+}
+
